@@ -1,0 +1,16 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index_1/index_1",
+    "pages/success/success",
+    "pages/share_suc/share_suc",
+    "pages/get/get",
+    "pages/get_suc/get_suc"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "#我的时尚态度#城市巡展",
+    "navigationBarTextStyle":"black"
+  }
+}

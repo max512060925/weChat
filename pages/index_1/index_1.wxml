@@ -1,0 +1,17 @@
+
+<view class="container">
+  <audio wx:if="{{play}}" bindtap="audio_play"></audio>
+  <view wx:else class="stop" bindtap="audio_play"></view>
+  <image src="../../img/2/bg.png" class="background"></image>
+  <image src="../../img/2/input1.png" class="input1">
+  </image>
+  <input  placeholder="请输入您的姓名" id="name" bindblur="input1"/>
+  <view wx:if="{{msg1}}" class="msg1"><icon type="warn" color="grey" size="8"/>姓名不能为空</view>
+  <image src="../../img/2/input2.png" class="input2">
+  </image>
+  <input  placeholder="请输入您的手机号码" id="tel" bindblur="input2"/>
+  <view wx:if="{{msg2}}" class="msg2"><icon type="warn" color="grey" size="8"/>手机号码必须为11位数</view>
+  <view class="btn1" bindtap="btn1" bindtap="signUp">确认报名</view>
+  <view class="btn2" bindtap="btn2" bindtap="back">返回首页</view>
+  <view class="tip" bindtap="bindTip">现场互动攻略</view>
+</view>

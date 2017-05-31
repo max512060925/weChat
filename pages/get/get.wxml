@@ -1,0 +1,11 @@
+<!--get.wxml-->
+<view class="container">
+  <audio wx:if="{{play}}" bindtap="audio_play"></audio>
+  <view wx:else class="stop" bindtap="audio_play"></view>
+  <image src="../../img/5/bg.png" class="background"></image>
+  <input  placeholder="请工作人员在此处输入核销码" id="code" bindblur="code"/>
+  <view wx:if="{{msg}}" class="msg"><icon type="warn" color="grey" size="7"/>请输入正确的核销码</view>
+  <view class="btn1" bindtap="btn1" bindtap="submit">提交</view>
+  <view class="btn2" bindtap="btn2" bindtap="back">返回</view>
+  <view class="tip" bindtap="bindTip">现场互动攻略</view>
+</view>

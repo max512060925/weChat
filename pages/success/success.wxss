@@ -1,0 +1,62 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  overflow: hidden;
+}
+.container{
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.share{
+  width: 200rpx;
+  height: 60rpx;
+  position: absolute;
+  z-index: 2;
+  bottom: 200rpx;
+  left: 140rpx;
+  color: #fff;
+  background: #c4a870;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+}
+.get{
+  width: 200rpx;
+  height: 60rpx;
+  position: absolute;
+  z-index: 2;
+  bottom: 200rpx;
+  left: 410rpx;
+  color: #fff;
+  background: #c4a870;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+}
+.name{
+  position: absolute;
+  z-index: 2;
+  line-height: 50rpx;
+  font-size: 50rpx;
+  top:44%;
+  left:350rpx;
+  color:#c4a870;
+}
+button::after{
+  border:none;
+}
+

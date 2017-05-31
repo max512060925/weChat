@@ -1,0 +1,46 @@
+/**index.wxss**/
+page{
+  height: 100%;
+  overflow: hidden;
+}
+.container{
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+.userinfo{
+  width: 294rpx;
+  height: 66rpx;
+  position: absolute;
+  z-index: 2;
+  bottom: 250rpx;
+  left: 50%;
+  margin-left:-147rpx;
+  color: #fff;
+  background: #c4a870;
+  line-height: 66rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+.tip{
+  position: absolute;
+  width: auto;
+  height: 30rpx;
+  z-index: 2;
+  bottom: 33rpx;
+  right: 56rpx;
+  color: #fff;
+  text-decoration: underline;
+  font-size: 24rpx;
+  letter-spacing: 2rpx;
+}
+

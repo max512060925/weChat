@@ -1,0 +1,7 @@
+<!--share_suc.wxml-->
+<view class="container">
+  <audio wx:if="{{play}}" bindtap="audio_play"></audio>
+  <view wx:else class="stop" bindtap="audio_play"></view>
+  <image src="../../img/4/bg.png" class="background"></image>
+  <view class="tip" bindtap="bindTip">现场互动攻略</view>
+</view>

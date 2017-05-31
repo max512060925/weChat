@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <audio wx:if="{{play}}" bindtap="audio_play"></audio>
+  <view wx:else class="stop" bindtap="audio_play"></view>
+  <image src="../../img/3/bg.png" class="background"></image>
+  <view class="name">{{userInfo.nickName}}</view>
+  <button class="share" open-type="share">
+  邀请同行</button>
+  <button class="get" bindtap="get">
+  现场领奖</button>
+  <view class="tip" bindtap="bindTip">现场互动攻略</view>
+</view>

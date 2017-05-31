@@ -1,0 +1,60 @@
+/* get.wxss */
+#code{
+  position: absolute;
+  width: 500rpx;
+  height: 70rpx;
+  background: #fff;
+  z-index: 2;
+  text-align: center;
+  top: 57%;
+  left:50%;
+  margin-left: -250rpx;
+  font-size: 24rpx;
+}
+icon{ 
+  margin-right: 10rpx;
+}
+.msg{
+  position: absolute;
+  width: 201rpx;
+  height: 20rpx;
+  top: 63.5%;
+  right: 130rpx;
+  z-index: 2;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  color: grey;
+  float: left;
+}
+.btn1{
+  width: 200rpx;
+  height: 50rpx;
+  position: absolute;
+  top:840rpx;
+  left: 18%;
+  z-index: 2;
+  color: #fff;
+  background: #c4a870;
+  text-align: center;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  letter-spacing: 2rpx;
+}
+
+.btn2{
+  width: 200rpx;
+  height: 50rpx;
+  position: absolute;
+  top:840rpx;
+  text-align: center;
+  left: 56%;
+  color: #fff;
+  background: #c4a870;
+  z-index: 2;
+
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  letter-spacing: 2rpx;
+}

@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container">
+  <audio wx:if="{{play}}" bindtap="audio_play" src="http://7xpm1p.com1.z0.glb.clouddn.com/yqh.mp3" loop="true" id="myAudio"></audio>
+  <view wx:else class="stop" bindtap="audio_play"></view>
+  <image src="../../img/1/1.png" class="background"></image>
+  <view bindtap="bindViewTap" class="userinfo">
+  我要报名</view>
+  <view class="tip" bindtap="bindTip">现场互动攻略</view>
+</view>
